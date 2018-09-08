@@ -96,7 +96,7 @@ state BORDER:
 
 # gaps inner|outer [current] [plus|minus] <px>
 state GAPS:
-  type = 'inner', 'outer'
+  type = 'inner', 'outer', 'horizontal', 'vertical', 'top', 'right', 'bottom', 'left'
       -> GAPS_WITH_TYPE
 
 state GAPS_WITH_TYPE:
